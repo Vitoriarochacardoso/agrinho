@@ -1,0 +1,90 @@
+*{/* isso é a pergunta esqueceu da senha e o lembre-me*/
+    font-family: 'poppins', sans-serif;
+    font-size: medium;
+}
+body{
+    background-image:url(imagem/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.box{/*isso é o grid eu acho*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.container{/*isso é tipo a "mae" */
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+span{/*vitoria web*/
+    color: #fff;
+    font-size:large;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 15px 0;
+}
+header{/* aqui é onde mexe na parte onde ta escrito iniciar seção*/
+    color: #fff;
+    font-size: 89%;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 15px 0;
+}
+.input-field{/*sao tipo os botoes a parte do usuario e da senha, esse em especifico é o do usuario*/
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.input-field .input{/*essa é da senha*/
+    height: 45px;
+    width: 87%;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    color: #fff;
+    padding: 0 0 0 42px;
+    background: rgba(255,255,255,01);
+}
+i{
+    position: relative;
+    top: -31px;
+    left: 17px;
+    color: #fff;
+}
+::-webkit-input-placeholder{/*fornecer ao usuário uma dica que descreve o valor esperado em um dado campo de entrada*/
+    color: #fff;
+}
+.submit{/*é quando voce escreveu e depois aperta o enter*/
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height: 45px;
+    outline: none;
+    width: 100%;
+    background: rgba(255,255,255,07);
+    cursor: pointer;/*para mudar o estilo do cursor*/
+    transition: 3s;
+}
+.submit:hover{
+    box-shadow: 1px 5px 7px rgba(0,0,0,0.2);
+}
+.bottom{/*botao*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    color: #fff;
+    margin-top: 10px;
+}
+.esquerda{
+    display: flex;
+}
+label a{
+    color:#fff;
+    text-decoration: none;
+}
