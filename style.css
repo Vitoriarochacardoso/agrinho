@@ -1,7 +1,4 @@
-*{/* isso é a pergunta esqueceu da senha e o lembre-me*/
-    font-family: 'poppins', sans-serif;
-    font-size: medium;
-}
+
 :root{
     --cor_botao_clicado:rgb(76, 211, 221);
     --cor_botao_n_clicado: rgb(37, 219, 143);
@@ -45,29 +42,26 @@ header{/* aqui é onde mexe na parte onde ta escrito iniciar seção*/
     position: relative;
 
 }
-.input-field{/*sao tipo os botoes a parte do usuario e da senha, esse em especifico é o do usuario*/
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 15px;
-}
-.input-field .oi{/*essa é da senha*/
-    height: 45px;
-    width: 87%;
-    border: none;
-    outline: none;
-    border-radius: 30px;
-    color: #fff;
-    padding: 0 0 0 42px;
-    background: rgba(255,255,255,01);
-}
-i{
+.consumidor input{
+    background-color:beige ;
+    box-shadow: 20%;
+    border-radius: 16px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;/*para mudar o estilo do cursor*/
     position: relative;
-    top: -31px;
-    left: 17px;
-    color: #fff;
 }
-::-webkit-input-placeholder{/*fornecer ao usuário uma dica que descreve o valor esperado em um dado campo de entrada*/
-    color: #fff;
+.produtor input{
+    background-color:beige ;
+    box-shadow: 20%;
+    border-radius: 16px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;/*para mudar o estilo do cursor*/
+    position: relative;
+    margin-left: 165px;
+    margin-bottom: 50px;
+    
 }
 .submit{/*é quando voce escreveu e depois aperta o enter*/
     border: none;
@@ -92,9 +86,6 @@ i{
     color: #fff;
     margin-top: 10px;
     
-}
-.esquerda{
-    display: flex;
 }
 label a{
     color:#fff;
@@ -140,4 +131,9 @@ label a{
 }
 .texto{
     text-align: left;
+}
+.jabuticaba{
+    justify-content: space-between;
+    display: flexbox;
+    margin-top: 20px;
 }
